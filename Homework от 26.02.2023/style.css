@@ -45,7 +45,7 @@ body {
     background: #FFFFFF;
     text-decoration: none;
 }
-.header__button {
+.header__button {   
     margin-right: 16px;
     width: 153px;
     height: 50px;
@@ -273,7 +273,7 @@ color:#CF5510;
     max-width: 950px;
     margin: 0px auto;
     }
-} @media (max-width: 860px) AND (min-width: 820px) {
+} @media (max-width: 860px) AND (min-width: 801px) {
     .header__button {
     margin-right: 0;
     width: 140px;
@@ -288,7 +288,7 @@ color:#CF5510;
     max-width: 780px;
      }
      .content {
-        max-width: 700px; 
+    max-width: 700px; 
     }
      .content__title {
     font-size: 25px;
@@ -313,7 +313,7 @@ color:#CF5510;
 }
 
 
-@media (max-width: 800px) AND (min-width: 768px) {
+@media (max-width: 800px) AND (min-width: 740px) {
     .header {
     padding-left: 8px;
     padding-right: 8px;
@@ -339,7 +339,7 @@ color:#CF5510;
     .students {
     max-width: 710px;
     margin: 0px auto;
-        }
+     }
     .content__headline {
     font-size: 35px;
     line-height: 42px;
@@ -347,20 +347,215 @@ color:#CF5510;
     height: 243px;
     }
     .inform__img {
-        width: 650px;
-        height: 450px;
+    width: 650px;
+    height: 450px;
     }
     .inform__content {
-        padding-left: calc(50% - 700px /2);
-        padding-right: calc(50% - 700px /2);
+    padding-left: calc(50% - 700px /2);
+    padding-right: calc(50% - 700px /2);
     }
     .contact__inform {
-        max-width: 800px;
+    max-width: 800px;
+    }
+}  
+@media (max-width: 740px) AND (min-width: 680px) {
+    .header {
+    padding-left: 0px;
+    padding-right: 0px;
+     }
+    .header__nav {
+    margin-right: 20px;
+    }
+    .header__link {
+    font-size: 17px;
+    line-height: 11px;
+    }
+    .header__button {
+    margin-right: 0px;
+    width: 117px;
+    height: 42px;
+     }
+    .content {
+    max-width: 630px;
+    }
+     .content__title {
+     font-size: 21px;
+     line-height: 25px;
+    }
+    .content__info {
+    max-width: 625px;
+    }
+    .heading {
+    font-size: 25px;
+    }
+    .students {
+    max-width: 650px;
+    margin: 0px auto;
+     }
+     .students__info {
+        justify-content: center;
+     }
+     .content__headline {
+    font-size: 25px;
+    line-height: 37px;
+     width: 75px;
+     height: 243px;
+     }
+     .inform__img {
+     width: 640px;
+     height: 450px;
+     }
+    .inform__content {
+     padding-left: calc(50% - 640px /2);
+    padding-right: calc(50% - 640px /2);
+    }
+    .contact__inform {
+    max-width: 800px;
+    }
+    .inform___text {
+    margin-left: 30px;
+    }
+    .сontact__details {
+     max-width: 439px;
+     width: 100%;
+     padding-left: 135px;
     }
 }
-
-@media (max-width: 426px) 
- {
+@media (max-width: 680px) AND (min-width: 550px) {
+    .header {
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+    .header__menu {
+        margin-left: 0px;
+    }
+    .header__link {
+    font-size: 15px;
+    line-height: 16px;
+    padding: 24px 11px;
+    }
+    .header__button {
+    margin-right: 10px;
+    width: 105px;
+    height: 43px;
+    }
+    .content {
+    max-width: 540px;
+    }
+    .content__title {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .content__img {
+        width: 440px;
+    }
+    .content__headline {
+        display: none;
+    }
+    .heading {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .students__info {
+    justify-content: center;
+    }
+    .inform__content {
+     padding-left: calc(50% - 560px /2);
+     padding-right: calc(50% - 560px /2);
+    }
+    .inform__img {
+     width: 560px;
+    height: 450px;
+    }
+    .contact__header {
+    font-size: 27px;
+    }
+    .сontact__details {
+     max-width: 439px;
+    width: 100%;
+    padding-left: 100px;
+    }
+    .footer {
+    font-size: 15px;
+    }
+} 
+@media (max-width: 550px) AND (min-width: 474px) {
+    .header {
+        padding-left: 0px;
+        padding-right: 0px;
+        }
+        .header__menu {
+            margin-left: 0px;
+        }
+        .header__link {
+         font-size: 13px;
+        line-height: 13px;
+        padding: 22px 10px;
+        }
+        .header__button {
+        margin-right: 10px;
+        width: 105px;
+        height: 43px;
+        font-size: 15px;
+        }
+        .content__title {
+         font-size: 15px;
+        line-height: 21px;
+        }
+        .content {
+        max-width: 420px;
+        margin: 0 auto;
+        }
+        .content__img {
+            width: 420px;
+        }
+        .content__headline {
+            display: none;
+        }
+        .content__subtitle {
+            font-size: 21px;
+        }
+        .content__text {
+            font-size: 13px;
+        }
+        .heading {
+            font-size: 20px;
+        }
+        .students {
+            max-width: 420px;
+        }
+        .students__info {
+        justify-content: center;
+        }
+        .inform__content {
+         margin-left: 40px;
+        }
+        .students__name {
+        font-size: 16px;
+        }
+        .inform__img {
+         width: 420px;
+        height: 370px;
+        }
+        .contact__header {
+        font-size: 23px;
+        }
+        .сontact__details {
+         max-width: 410px;
+        width: 100%;
+        padding-left: 95px;
+        }
+        .contacts__our {
+        font-size: 20px;
+        }
+        .Contact_adress {
+        font-size: 14px;
+        }
+        .footer {
+        font-size: 15px;
+        }
+}   
+@media (max-width: 473px) AND (min-width: 427px) {
     /* стили для мобилки */
     .header { 
     padding-left: 0px;
@@ -435,9 +630,6 @@ color:#CF5510;
     .inform__img {
         width: 380px;
     }
-    .contact__inform {
-        max-width: 425px;
-    }
     .contact__header {
         font-size: 23px;
         padding-left: 20px;
@@ -460,39 +652,120 @@ color:#CF5510;
         font-size: 12px;
     }
 }
-@media (max-width: 376px) {
-    .header__nav {
-        margin: -12px;
-    }
-    .header__menu {
-        margin-left: 8px;
-    }
-    .header__button {
-        width: 60px;
-        height: 41px;
-        font-size: 11px;
-        line-height: 15px;
-        margin-right: 0;
-    }
-    .content__img {
-        width: 330px;
-   
-    }
-    .content {
-        max-width: 330px;
-    }
-}
-@media (max-width: 320px) {
-    .header__menu {
-        margin-left: 3px;
+@media (max-width: 426px) AND (min-width: 370px)
+ {
+    .header { 
+        padding-left: 0px;
+         padding-right: 0px; 
         }
-    .header__link {
-        font-size: 10px;
-        padding: 23px 14px;
-    }
+         .header__Logo {
+        display: none;
+        }
+         
+        .header__button {
+        margin-right: 0;
+         width: 74px;
+         height: 51px;
+        font-size: 13px;
+        line-height: 20px;
+        }
+         .header__menu {
+        margin-left: 20px;
+        }
+         .header__link {
+         font-size: 11px;
+        line-height: 11px;
+        padding: 20px 12px;
+        }
+        .content {
+         max-width: 360px;
+        margin: 0 auto;
+         }
+         .content__title {
+         font-size: 17px;
+         line-height: 25px;
+        text-align: center;
+        }
+        .content__img {
+        width: 350px;
+        }
+         .content__subtitle {
+         font-size: 20px;
+        }
+        .content__text {
+        font-size: 12px;
+        line-height: 18px;
+        }
+        .content__headline {
+         display: none; 
+        }
+        .students {
+        max-width: 350px;
+        margin: 0 auto;
+        }
+        .students__info {
+        justify-content: center;
+        }
+        .heading {
+        font-size: 19px;
+        line-height: 11px;
+         margin-top: 26px;
+        }
+        .inform__content {
+         padding-left: calc(50% - 350px /2);
+         padding-right: calc(50% - 350px /2);
+         }
+         .inform___text {    
+         font-size: 20px;
+        }
+        .inform__img {
+         width: 340px;
+        }
+        .contact__header {
+         padding-left: 30px;
+        font-size: 20px;
+         }
+        .сontact__details {
+         max-width: 340px;
+         padding-left: 50px;
+        }
+        .contacts__our {
+        font-size: 20px;
+        }
+        .Contact_adress {
+        font-size: 12px;
+        line-height: 20px;
+        }
+        .Contact_phone {
+        font-size: 15px;
+        }
+           .footer {
+        font-size: 12px;
+        }
+}
+@media (max-width: 369px)  {
+    .header { 
+        padding-left: 0px;
+         padding-right: 0px; 
+        }
+    .header__Logo {
+        display: none;
+        }
     .header__button {
-        width: 54px;
-    }
+        margin-right: 0;
+         width: 74px;
+         height: 50px;
+        font-size: 13px;
+        line-height: 20px;
+        }
+         .header__menu {
+        margin-left: 20px;
+        }
+         .header__link {
+        font-size: 10px;
+        line-height: 10px;
+        padding: 20px 10px;
+        }
     .content {
         max-width: 300px;
     }
@@ -514,12 +787,18 @@ color:#CF5510;
         font-size: 10px;
         line-height: 17px;
     }
+    .content__headline {
+        display: none; 
+       }
     .heading {
         font-size: 15px;
         line-height: 14px;
         margin-top: 25px;
         margin-left: 35px;
     }
+    .students__info {
+        justify-content: center;
+     }
     .students__name {
         font-size: 14px;
         line-height: 15px;
@@ -534,8 +813,8 @@ color:#CF5510;
         padding-left: calc(50% - 310px /2);
         padding-right: calc(50% - 310px /2);
     }
-    .contact__inform {
-        max-width: 320px;
+    .inform__img {
+        width: 300px;
     }
     .contact__header {
         font-size: 18px;
@@ -548,13 +827,14 @@ color:#CF5510;
         max-width: 300px;
         padding-left: 40px;
     }
-    .Contact_adress {
+    .contact_adress {
         font-size: 10px;
         line-height: 16px;
     }
-    .Contact_phone {
+    .contact_phone {
         font-size: 14px;
     }
     .footer {
         font-size: 10px;
     }
+}       
