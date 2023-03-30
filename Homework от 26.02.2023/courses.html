@@ -28,6 +28,18 @@
             </nav>
             <a class="header__button" href="#">Войти</a>
         </header>
+        <section class="authorization">
+            <div class="authorization__info">
+                <form class="authorization__form" action="login" method="post">
+                    <h2 class="authorization__title"> Войти на сайт </h2>
+                    <p class="authorization__login"> <input class="authorization__log" type="text" placeholder="Логин"
+                            required </p>
+                    <p class="authorization__password"> <input class="authorization__pas" type="password"
+                            placeholder="Пароль" required </p>
+                        <button type="sibmit" class="header__button2">Войти</button>
+                </form>
+            </div>
+        </section>
         <main class="inform">
             <div class= "inform__content">
                 <h2 class="heading">О курсе 📱</h2>
@@ -39,5 +51,17 @@
     <footer class="footer">
         <p> 2023 &copy; <a class="footer__text" href="#">Учебный центр</a></p>
     </footer>
+    <script>
+        const buttonEl = document.querySelector('.header__button');
+        const blockEl = document.querySelector('.authorization');
+        const secondButton = document.querySelector('.header__button2');
+
+        buttonEl.addEventListener('click', function (e) {
+            blockEl.classList.toggle('visible');
+        });
+        secondButton.addEventListener('click', function (e) {
+            blockEl.classList.toggle('visible');
+        });
+    </script>
 </body>
 </html>
